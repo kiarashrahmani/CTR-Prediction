@@ -6,16 +6,16 @@ The dataset consists of various features related to online advertising, and the 
 ## Model Training
 The Random Forest Classifier is employed for training the click-through rate prediction model. GridSearchCV is used to find the best hyperparameters for the model.
 ## Evaluation
-The model's performance is evaluated using accuracy and precision scores on a test set.\ 
-My accuracy  is : 0.8394897124329566\ 
-My precision is : 0.5422661870503597\
+The model's performance is evaluated using accuracy and precision scores on a test set.<br/>
+My accuracy  is : 0.8394897124329566<br/>
+My precision is : 0.5422661870503597<br/>
 ## Creating a Submission File
 The trained model is used to make predictions on the test set, and the results are saved in a CSV file named submission.csv.
 ## Usage
-1.Ensure you have the required Python libraries installed by running:  
-```pip install pandas scikit-learn```  
-2.Run the Jupyter notebook or Python script to train the model and generate predictions.  
-3.View the evaluation metrics and the submission file.  
+1.Ensure you have the required Python libraries installed by running:<br/>
+```pip install pandas scikit-learn```<br/>
+2.Run the Jupyter notebook or Python script to train the model and generate predictions.<br/> 
+3.View the evaluation metrics and the submission file.<br/>
 ##  Files Included
 - train.csv: Training dataset.  
 - test.csv: Testing dataset.  
